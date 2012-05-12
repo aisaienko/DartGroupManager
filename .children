@@ -1,0 +1,6 @@
+DgmServer/static/htdocs/dart/interfaces/Observer.dart
+DgmServer/DgmServer.dart
+DgmServer/static/htdocs/dart/interfaces/SubscribeEvent.dart
+DgmServer/static/htdocs/dart/DgmWeb.dart
+DgmServer/static/htdocs/dart/classes/ConcreteSubject.dart
+DgmServer/static/htdocs/dart/interfaces/Subject.dart
