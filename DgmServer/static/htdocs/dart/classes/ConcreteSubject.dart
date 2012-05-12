@@ -2,10 +2,11 @@
 
 #import('../interfaces/Subject.dart');
 #import('../interfaces/Observer.dart');
+#import('../interfaces/Event.dart');
 
 class ConcreteSubject implements Subject{
   List<Observer> observers;
-  
+  List<Event> events;
   // params of Subjects
   
   ConcreteSubject(){
@@ -27,7 +28,7 @@ class ConcreteSubject implements Subject{
   
   void notifyObservers(){
     for (var x = 0; x < observers.length; x++) {
-      Observer observer = observers[0];
+      Observer observer = observers[x];
       observer.update();
     }
   }
