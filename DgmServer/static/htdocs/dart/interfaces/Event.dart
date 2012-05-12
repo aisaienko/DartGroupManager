@@ -1,7 +1,5 @@
 #library('Event');
 
 interface Event {
-  void canceled();
-  void passed();
-  void changed();
+  void change(String s, String c, Date e);
 }

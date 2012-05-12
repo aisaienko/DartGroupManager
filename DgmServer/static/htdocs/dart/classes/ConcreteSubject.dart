@@ -26,12 +26,36 @@ class ConcreteSubject implements Subject{
     }
   }
   
+  void addEvent(Event e){
+    events.add(e);
+  }
+  
+  void removeEvent(Event e){
+    for (var x = 0; x < events.length; x++) {
+      if(events[x] === e){
+        events.removeRange(x, 1);
+        break;
+      }
+    }
+  }
+  
+  void cancelEvent(Event e){
+    for (var x = 0; x < events.length; x++) {
+      if(events[x] === e){
+        events[x].canceled();
+        break;
+      }
+    }
+  }
+  
   void notifyObservers(){
     for (var x = 0; x < observers.length; x++) {
       Observer observer = observers[x];
       observer.update();
     }
   }
+  
+  
   
   void setChanged(){
     notifyObservers();
