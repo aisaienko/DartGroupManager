@@ -1,0 +1,4 @@
+Notes (by webKnjaZ):
+- Web interface is available at http://dgm.webknjaz.com/
+- $PROJECT/static/htdocs/ folder is mapped to http://dgm.webknjaz.com/static/ url by nginx.
+- MySQL DBMS info is placed into TODO file
