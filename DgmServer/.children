@@ -1,7 +1,9 @@
 static/htdocs/dart/classes/ObserverTest.dart
+static/htdocs/dart/interfaces/Event.dart
 DgmServer.dart
 dal/Student.dart
 lib/sqljocky/lib/sqljocky.dart
+static/htdocs/dart/classes/GroupEvent.dart
 static/htdocs/dart/interfaces/Observer.dart
 lib/sqljocky/rununittests.dart
 model/DateBase.dart
